@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.big_color{
+	background-color: #f3f5f7;
+}
+
+.top{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+.lunbotu{
+	width: 1600px;
+	height: 480px;
+	background-color: black;
+	margin: 0 auto;
+}
+.Premiere{
+	width: 1600px;
+	height: 520px;
+	background-color: white;
+	margin: 0 auto;
+}
+.amusement{
+	width: 1600px;
+	height: 520px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.reBo{
+	width: 1600px;
+	height: 325px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.live{
+	width: 1600px;
+	height: 500px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.mainStar{
+	width: 1600px;
+	height: 297px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+
+
+
+
+.vBang{
+	width: 1600px;
+	height: 490px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 5px;
+
+}
+
+.homeMade{
+	width: 1600px;
+	height: 490px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.offCpa{
+	width: 1600px;
+	height: 490px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 5px;
+
+}
+
+.cpMv{
+	width: 1600px;
+	height: 385px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 5px;
+
+}
+.guessLike{
+	width: 1600px;
+	height: 290px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.end{
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	margin-top: 10px;
+}
+
+
+.returntop{
+	width: 50px;
+	height: 65px;
+/*	background-color: red;*/
+	float: right;
+	margin-top: -100px;
+	margin-right: 20px;
+}
+
+385
+290

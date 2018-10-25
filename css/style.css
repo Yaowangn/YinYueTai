@@ -1,0 +1,108 @@
+#shangcheng{
+		width: 35px;
+		height: 45px;
+	    background: url(../images/shop2.gif);
+	}
+/*#shouye_1{
+	color: #52e2c0;
+}*/
+
+.top .top_width ul li a:hover{
+	color: #52e2c0;
+
+}
+.top .top_right  a:hover{
+	color: #52e2c0;
+
+}
+#uls a{
+	text-decoration: none;
+}
+#uls a:hover{
+	color: #52e2c0;
+}
+.Premiere .daohang a:hover{
+	color: #52e2c0;
+
+}
+
+#Act h5:hover{
+	color: #52e2c0;
+}
+#Act p:hover{
+	color: #52e2c0;
+}
+
+/*.shoubo_videos ul li a:hover{
+	color: red;
+}*/
+.amusement .daohang a{
+	text-decoration: none;
+}
+
+.amusement .daohang a:hover{
+	color: #52e2c0;
+}
+.reBo .reBo_daohang a:hover{
+	color: #52e2c0;
+}
+
+.mainStar .mainStar_daohang a:hover{
+	color: #52e2c0;
+}
+.vBang .vBang_daohang a:hover{
+	color: #52e2c0;
+}
+.vBang .vBang_zuotu a{
+	text-decoration: none;
+}
+.homeMade .homeMade_daohang a:hover{
+	color: #52e2c0;
+}
+.homeMade .homeMade_zuotu a{
+	text-decoration: none;
+}
+
+.offCpa .daohang a{
+	text-decoration: none;
+}
+.offCpa .daohang a:hover{
+	color: #52e2c0;
+
+}
+.cpMv .cpMv_daohang a{
+	text-decoration: none;
+}
+.cpMv .cpMv_daohang a:hover{
+	color: #52e2c0;
+
+}
+.guessLike .guessLike_daohang a:hover{
+	color: #52e2c0;
+
+}
+
+.end .end_one a{
+	text-decoration: none;
+}
+.end .end_one a:hover{
+	color: #52e2c0;
+
+}
+.end .end_two a{
+	color: #999999;
+	text-decoration: none;
+}
+.end .end_two a:hover{
+	color: #52e2c0;
+
+}
+
+.end .end_three a{
+	color: #999999;
+	text-decoration: none;
+}
+.end .end_three a:hover{
+	color: #52e2c0;
+	
+}

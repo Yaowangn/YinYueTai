@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>音乐Tai - 让娱乐更美好</title>
+	<!-- 自写样式 -->
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/homepage.css">
+	<link rel="shortcut icon" href="./images/weblogo.ico">
+	<link rel="stylesheet" href="./css/style.css">
+
+	<!-- 引入框架 -->
+	<link rel="stylesheet" href="./frame/bootstrap3.2.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./frame/iconFont/iconFont.css">
+	<link rel="stylesheet" href="./ico/iconFont.css">
+
+
+	<script src="./frame/jquery-2.1.4/jquery.min.js"></script>
+	<script src="./frame/bootstrap3.2.2/js/bootstrap.min.js"></script>
+	<script src="./frame/Highcharts-4.0.1/js/highcharts.js"></script>
+
+	<!-- 自写js -->
+	<script src="./js/index.js"></script>
+	<script src="./js/lunbo.js"></script>
+	<script src="./js/window.js"></script>
+	<!-- <style>
+		#left_anniu{
+			background-color: rgb(255,255,255,0);
+		}
+	</style>
+ -->
+<!--  用bootstrap实现图片的轮播-->
+	<script>
+		$(function(){
+			$(".carousel").carousel({
+			
+			interval:4000
+		});
+
+		});
+			
+	</script>
+</head>
+<body>
+	<div class="big_color">
+		<div class="top">
+			<div class="top_width">
+				<img id="logo" src="./images/logo.png" alt="">
+				<ul id="top_left">
+					<li id="shouye"><a href="" id="shouye_1">首页</a></li>
+					<li><a href="" id="mv">MV</a></li>
+					<li id="pindao"><a href="" >频道<i class="iconfont icon-xiala"></i></a>
+
+
+						<div class="daohang_left" id="erji">
+								<p><a href="">韩流频道</a></p>
+								<p><a href="">华语频道</a></p>
+								<p><a href="">欧美频道</a></p>
+								<p><a href="">日语频道</a></p>
+								<p><a href="">粉丝聚集</a></p>
+						
+						</div>
+
+					</li>
+					<li><a href="" id="vbang">V榜</a></li>
+					<li><a href="" id="yule">娱乐</a></li>
+					<li  id="shangcheng"><a href="">商城</a></li>
+					<li><a href="" id="zhongchou">众筹</a></li>
+					<li><a href="" id="minsu">民俗文化</a></li>
+				</ul>
+
+				<div class="search">
+					<input type="text" placeholder="易烊千玺"><i class="iconfont icon-sousuo"></i>
+				</div>
+
+
+				<div class="top_right">
+					<p><a href="" id="VIP">VIP</a></p>
+					<p><a href=""><img src="./images/logos/phone.png" alt=""></a></p>
+					<p><a href=""><img src="./images/logos/yunfuwu.png" alt=""></a></p>
+					<p><a href=""><img src="./images/logos/dingyue.png" alt=""></a></p>
+					<span><a href="">登录</a></span>
+					<span>|</span>
+					<span><a href="">注册</a></span>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="lunbotu">
+			<img id="lunbo_img" src="./images/lunbotu/1.jpg" alt="">
+			<div class="lunbo_right">
+				
+			<ul id="uls">
+				<li><a class="a1" href="">IU《BBIBBI 》首播</a></li>
+				<li><a class="a2" href="">Super Junior《One More Time》首播</a></li>
+				<li><a class="a3" href="">张艺兴《Give Me A Chance》首播</a></li>
+				<li><a class="a4" href="">林采欣《瑜伽》官方版MV首播</a></li>
+				<li><a class="a5" href="">冯建宇蝉联冠军|第40期榜单</a></li>
+				<li><a class="a6" href="">潘玮柏袁娅维连续三周夺冠 - 39期榜单</a></li>
+				<li><a class="a7" href="">权俞利首支Solo曲《Into You》MV首播</a></li>
+				<li><a class="a8" href="">四次元钱正昊面试记|爱豆企划社</a></li>
+				<li><a class="a9" href="">商城福利！ONER签售会名额来啦</a></li>
+				<li><a class="a10" href="">爱豆企划社EP26 BOY STORY三度入社</a></li>
+			</ul>
+			</div>
+
+
+		</div>
+		<!-- 首播box -->
+		<div class="Premiere">
+			<div class="daohang">
+			<b>首播</b>
+			<ul>
+				<li><a href="">全部</a></li>
+				<li><a href="">内地</a></li>
+				<li><a href="">港台</a></li>
+				<li><a href="">欧美</a></li>
+				<li><a href="">韩国</a></li>
+				<li><a href="">日本</a></li>
+			</ul>
+			</div>
+			<hr>
+			<!-- 首播左下轮播图 -->
+			<div class="shoubo_lunbo">
+				<!-- <a href="http://v.yinyuetai.com/video/h5/3301573?f=SY-MKDT-MVSB-1"><img src="./images/shoubo/1.jpg" alt=""> -->
+					<div class="carousel slide" id="parentCar">
+
+					<div class="carousel-inner" id="Act">
+
+						<div class="item active">
+							
+							<a href="">
+							<img src="./images/shoubo/1.jpg" alt="">
+							<h5>NCT127《Regular》英文版</h5>
+							<p>克里斯马满分的一粒七！</p>
+							</a>
+						</div>
+
+						<div class="item">
+							<a href="">
+								<img src="./images/shoubo/2.jpg" alt="">
+								<h5>WekiMeki回归新曲《Crush》首播！</h5>
+								<p>Crush</p>
+							</a>
+
+						</div>
+						<div class="item">
+							<a href="">
+								<img src="./images/shoubo/3.jpg" alt="">
+								<h5>Tiffany《Teach You》MV首播</h5>
+								<p>秀英、孝渊惊喜出演！</p>
+							</a>
+						</div>
+					</div>
+
+					<!-- 查看浏览器中的控制台，修改rgb值，达到自己想要的结果 -->
+				 		<a class="carousel-control left" id="left_anniu" style="background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);"  href="#parentCar" data-slide="prev" > 
+						<span  class="glyphicon glyphicon-chevron-left" style="color: rgb(255,255,255,0.5);"></span>
+						</a>
+						 <a class="carousel-control right" id="right_anniu" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);" href="#parentCar" data-slide="next"> 
+						<span  class="glyphicon glyphicon-chevron-right " style="color: rgb(255,255,255,0.5);"></span>
+						</a>
+					</div>
+
+				
+				
+			</div>
+			<div class="shoubo_videos">
+				<ul>
+					<li><a href="http://v.yinyuetai.com/video/3302200"><img src="./images/shoubo/a.jpg" alt="">
+						<h5>朝焼けとからっぽ</h5>
+						<p>MAGIC OF LiFE</p>
+						</a>
+					</li>
+					<li><a href=""><img src="./images/shoubo/b.jpg" alt="">
+						<h5>Head Above Water</h5>
+						<p>Avril Lavigne</p>
+				
+					</a></li>
+					<li><a href=""><img src="./images/shoubo/c.jpg" alt="">
+						<h5>Your Song</h5>
+						<p>Mr.Children</p>
+					</a></li>
+					<li><a href=""><img src="./images/shoubo/d.jpg" alt="">
+						<h5>君、僕。</h5>
+						<p>Kis-My-Ft2</p></a></li>
+					<li><a href=""><img src="./images/shoubo/e.jpg" alt="">
+						<h5>我敢 电影《为你写诗》宣传</h5>
+						<p>胡彦斌</p>
+					</a></li>
+					<li><a href=""><img src="./images/shoubo/f.jpg" alt="">
+						<h5>Shallow</h5>
+						<p>Lady Gaga & Bradley Cooper</p>
+					</a></li>
+					<li><a href=""><img src="./images/shoubo/g.jpg" alt="">
+						<h5>New Beginning</h5>
+						<p>伊藤千晃</p>
+					</a></li>
+					<li><a href=""><img src="./images/shoubo/h.jpg" alt="">
+						<h5>Gifts</h5>
+						<p>Superfly</p>
+					</a></li>
+
+
+				</ul>
+			</div>
+		</div>
+
+		<!-- 娱乐box -->
+		<div class="amusement">
+			<div class="daohang">
+			<b>娱乐</b>
+			<ul>
+				<li><a href="">全部</a></li>
+				<li><a href="">明星</a></li>
+				<li><a href="">影视</a></li>
+				<li><a href="">练习室</a></li>
+			</ul>
+			</div>
+			<hr>
+			<div class="yule_zuotu">
+				<a href="http://v.yinyuetai.com/video/h5/3301573?f=SY-MKDT-MVSB-1"><img src="./images/yule/a.gif" alt="">
+				<h5>NCT127回归初舞台！</h5>
+				<p>感受西装长腿帅哥的魅力！</p>
+
+
+				</a>
+				
+			</div>
+			<div class="yule_videos">
+				<ul>
+					<li><a href="http://v.yinyuetai.com/video/3302200"><img src="./images/yule/a.jpg" alt="">
+						<h5>回忆被霸凌，几度落泪</h5>
+						<p>心疼炎亚纶</p>
+						</a>
+					</li>
+					<li><a href=""><img src="./images/yule/b.gif" alt="">
+						<h5>WekiMeki特别Cover Dance</h5>
+						<p>宣美防弹f(x)以及少时前辈HIT曲合集</p>
+				
+					</a></li>
+					<li><a href=""><img src="./images/yule/c.jpg" alt="">
+						<h5>GOT7《Lullaby》最新舞台</h5>
+						<p>高赛文一位粗卡！</p>
+					</a></li>
+					<li><a href=""><img src="./images/yule/d.jpg" alt="">
+						<h5>写真记录首期公开</h5>
+						<p>王俊凯</p></a></li>
+					<li><a href=""><img src="./images/yule/e.jpg" alt="">
+						<h5>田馥甄新歌录音纪实</h5>
+						<p>这是什么超赞影片！</p>
+					</a></li>
+					<li><a href=""><img src="./images/yule/f.jpg" alt="">
+						<h5>Taylor Swift惊喜现身粉丝身边</h5>
+						<p>霉霉又给大家发福利</p>
+					</a></li>
+					<li><a href=""><img src="./images/yule/g.jpg" alt="">
+						<h5>江映蓉《周“舞”见》第四期</h5>
+						<p>高难度落地劈叉</p>
+					</a></li>
+					<li><a href=""><img src="./images/yule/h.jpg" alt="">
+						<h5>Thirty Seconds To Mars现场</h5>
+						<p>翻唱热歌《Lucid Dreams》</p>
+					</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- 热播推荐box -->
+		<div class="reBo">
+			<div class="reBo_daohang">
+				<b>热播推荐</b>
+				<a href=""><span>换一换</span></a>
+			</div>
+			
+			<hr>
+			<div class="reBo_videos">
+				<ul>
+					<li><a href=""><img src="./images/rebo/a.jpg" alt="">
+						<h5>幕后特辑</h5>
+						<p>2018张韶涵「旅程」世界巡回演唱会</p>
+
+					</a></li>
+					<li><a href=""><img src="./images/rebo/b.jpg" alt="">
+						<h5>温岚“嫁入”诚利千代发布会</h5>
+						<p>我的梦</p>
+					</a></li>
+					<li><a href=""><img src="./images/rebo/c.jpg" alt="">
+						<h5>BBT《怦然心动备忘录》EP8</h5>
+						<p>感情里的迷雾</p>
+					</a></li>
+					<li><a href=""><img src="./images/rebo/d.jpg" alt="">
+						<h5>歌手鹿晗上线啦！</h5>
+						<p>鹿晗2018年[RE:X]巡回演唱会媒体探班</p>
+					</a></li>
+					<li><a href=""><img src="./images/rebo/e.jpg" alt="">
+						<h5>绝色莫文蔚世界巡回演唱会</h5>
+						<p>莫文蔚性感开唱！</p>
+					</a></li>
+					<li><a href=""><img src="./images/rebo/f.jpg" alt="">
+						<h5>许茹芸新专辑</h5>
+						<p>《绽放的绽放的绽放》发布会</p>
+					</a></li>
+				
+				</ul>
+			</div>
+			
+		</div>
+
+		<!-- 现场box -->
+		<div class="live">
+			<div class="daohang">
+			<b>现场</b>
+	
+			</div>
+			<hr>
+			<div class="live_zuotu">
+				<a href="http://v.yinyuetai.com/video/h5/3301573?f=SY-MKDT-MVSB-1"><img src="./images/live/1.gif" alt="">
+				<h5>Into You - KBS音乐银行现场版 18/10/12</h5>
+
+				</a>
+				
+			</div>
+			<div class="live_videos">
+				<ul>
+					<li><a href="http://v.yinyuetai.com/video/3302200"><img src="./images/live/a.jpg" alt="">
+						<h5>噩梦&Regular - KBS音乐银行现场版 18/10/12</h5>
+						</a>
+					</li>
+					<li><a href=""><img src="./images/live/b.jpg" alt="">
+						<h5>知道结局的开始 - KBS音乐银行现场版 18/10/12</h5>
+				
+					</a></li>
+					<li><a href=""><img src="./images/live/c.jpg" alt="">
+						<h5>Still - KBS音乐银行现场版 18/10/12</h5>
+
+					</a></li>
+					<li><a href=""><img src="./images/live/d.jpg" alt="">
+						<h5>True Valentine&Crush - KBS音乐银行现场版 18/10/12</h5>
+
+					<li><a href=""><img src="./images/live/e.jpg" alt="">
+						<h5>All Night - KBS音乐银行现场版 18/10/12</h5>
+
+					</a></li>
+					<li><a href=""><img src="./images/live/f.jpg" alt="">
+						<h5>Trace - KBS音乐银行现场版 18/10/12</h5>
+
+					</a></li>
+					<li><a href=""><img src="./images/live/g.jpg" alt="">
+						<h5>Save Me,Save You - KBS音乐银行现场版 18/10/12</h5>
+
+					</a></li>
+					<li><a href=""><img src="./images/live/h.jpg" alt="">
+						<h5>LOVE BOMB - KBS音乐银行现场版 18/10/12</h5>
+					</a></li>
+				</ul>
+			</div>
+		
+		</div>
+
+		<!-- 主打星box -->
+		<div class="mainStar">
+			<div class="mainStar_daohang">
+				<b>主打星:NCT 127</b>
+				<a href=""><span>查看更多》</span></a>
+			</div>
+			
+			<hr>
+			<div class="mainStar_videos">
+				<ul>
+					<li><a href=""><img src="./images/mainStar/a.jpg" alt="">
+						<h5>噩梦&Regular - KBS音乐银行现场版 18/10/12</h5>
+
+
+					</a></li>
+					<li><a href=""><img src="./images/mainStar/b.jpg" alt="">
+						<h5>Regular</h5>
+
+					</a></li>
+					<li><a href=""><img src="./images/mainStar/c.jpg" alt="">
+						<h5>Regular 英文版</h5>
+
+					</a></li>
+					<li><a href=""><img src="./images/mainStar/d.jpg" alt="">
+						<h5>Regular Teaser #2</h5>
+
+					</a></li>
+					<li><a href=""><img src="./images/mainStar/e.jpg" alt="">
+						<h5>Regular teaser1</h5>
+
+					</a></li>
+					<li><a href=""><img src="./images/mainStar/f.jpg" alt="">
+						<h5>Irregular Office</h5>
+
+					</a></li>
+				
+				</ul>
+			</div>
+		</div>
+<!-- v榜 -->
+		<div class="vBang">
+			<div class="vBang_daohang">
+				<ul>
+					<li id="one"><a href="">音乐V榜</a></li><span>|</span>
+					<li><a href="">Top10</a></li><span>|</span>
+					<li><a href="">看音乐</a></li><span>|</span>
+					<li><a href="">密谈室</a></li><span>|</span>
+					<li><a href="">有话说</a></li><span>|</span>
+					<li><a href="">特别企划</a></li>
+				</ul>
+
+			</div>
+				<hr>
+
+			<div class="vBang_zuotu">
+				<a href=""><img src="./images/vbang/1.jpg" alt="">
+				<h5>V榜TOP10 2018 第41期</h5>
+				<p>Avril Lavigne获得欧美一位~^_^~！</p>
+				</a>
+			</div>
+
+			<div class="vBang_right">
+				<ul>
+					<li>
+						<h4>周一节目单</h4>
+						<span>MONDAY</span>
+						<a href="">
+						<div><img src="./images/vbang/Monday/a.jpg" alt="" class="show">
+							
+							<div class="font_box"><h5>V榜TOP10 2018 第41期
+							</h5></div>
+						</div>
+						</a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>V榜TOP10 2018 第40期</h5></div>
+						</div>
+						</a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>V榜TOP10 2018 第39期</h5></div>
+						</div>
+						</a>
+					</li>
+					<li>
+						<h4>周五节目单</h4>
+						<span>FRIDAY</span>
+						<a href="">
+						<div><img src="./images/vbang/Friday/a.jpg" alt="" class="show">
+							<div class="font_box"><h5>EP224恋爱综艺大比拼！戳中你的少女心！</h5></div>
+						</div></a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>追星好难！那些逼fong粉丝的死亡应援法 |YYT特别企划EP223</h5></div>
+						</div>
+						</a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>宫斗?悬疑?轻松日常?暑期热播剧等你看! |YYT特别企划EP222</h5></div>
+						</div>
+						</a>
+					</li>
+					<li>
+						<h4>周四节目单</h4>
+						<span>THURSDAY</span>
+						<a href="">
+						<div><img src="./images/vbang/Thursday/a.jpg" alt="" class="show">
+							<div class="font_box"><h5>18年新番前瞻 V榜有话说EP20</h5></div>
+						</div>
+						</a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>小童星是怎样炼成的 V榜有话说EP19</h5></div></div>
+						</a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>这碗鸡汤综艺干了吗?</h5></div></div>
+						</a>
+					</li>
+					<li>
+						<h4>周三节目单</h4>
+						<span>WEDNESDAY</span>
+						<a href="">
+						<div><img src="./images/vbang/Wednesday/a.jpg" alt="" class="show">
+							<div class="font_box"><h5>躺着是一种人生态度 - 赵泳鑫专访 音悦密谈室EP46</h5></div>
+						</div>
+						</a>
+						<hr>
+						<a href="">
+						<div><img src="" alt="" class="hide">
+							<div class="font_box"><h5>秋冬限定组合来了 音悦密谈室EP45</h5>
+							</div>
+							</div>
+						</a>
+						<hr>
+						<a href="">
+						<div>
+							<img src="" alt="" class="hide">
+							<div class="font_box">
+							<h5>女王陛下的理想岛屿 音悦密谈室EP44</h5>
+							</div>
+						</div>
+						</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+		
+
+		
+<!-- 自制 -->
+		<div class="homeMade">
+			<div class="homeMade_daohang">
+				<b>自制节目</b>
+				<a href=""><span>查看更多》</span></a>
+
+			</div>
+				<hr>
+
+			<div class="homeMade_zuotu">
+				<a href=""><img src="./images/homemade/1.jpg" alt="">
+				<h5>其实我只是长得凶 - 陈小春专访</h5>
+				<p>陈小春作客STAR!调查团~~~</p>
+				</a>
+			</div>
+
+			<div class="homeMade_right">
+				<ul>
+					<li>
+						<h4>神马</h4>
+						<span>What</span>
+						<a href="">
+						<div><img src="./images/homemade/sm/a.jpg" alt="" class="show">
+							
+							<div class="font_box"><h5>[what]赵泳鑫 - 稀客 煮面现场版</h5></div>
+						</div>
+						</a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>[WHAT]钱正昊 - 四选一游戏</h5></div>
+						</div>
+						</a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>[WHAT]BOY STORY - 翻神马牌</h5></div>
+						</div>
+						</a>
+					</li>
+					<li>
+						<h4>STAR！调查团</h4>
+						<span>INVESTIGATION MISSION</span>
+						<a href="">
+						<div><img src="./images/homemade/star/a.jpg" alt="" class="show">
+							<div class="font_box"><h5>其实我只是长得凶 - 陈小春专访</h5></div>
+						</div></a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>今天是软萌霸道总裁 - 陈瑶专访</h5></div>
+						</div>
+						</a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>“纯妃”王媛可挑战《延禧》追剧考卷</h5></div>
+						</div>
+						</a>
+					</li>
+					<li>
+						<h4>爱豆企划社</h4>
+						<span>IDOL Ent.</span>
+						<a href="">
+						<div><img src="./images/homemade/idol/a.jpg" alt="" class="show">
+							<div class="font_box"><h5>爱豆企划社EP27 四次元钱正昊话痨上线</h5></div>
+						</div>
+						</a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>EP26 BOYSTORY出道业务能力考核</h5></div></div>
+						</a>
+						<hr>
+						<a href=""><img src="" alt="" class="hide">
+						<div>
+							<div class="font_box"><h5>EP25 魏瑾&丑丑文理生对决</h5></div></div>
+						</a>
+					</li>
+					<li>
+						<h4>BBT拜拜托</h4>
+						<span>BBT baibaituo</span>
+						<a href="">
+						<div><img src="./images/homemade/bbt/a.jpg" alt="" class="show">
+							<div class="font_box"><h5>番外篇 三傻可怜巴巴吃糖豆</h5></div>
+						</div>
+						</a>
+						<hr>
+						<a href="">
+						<div><img src="" alt="" class="hide">
+							<div class="font_box"><h5>EP10完结篇 三清洞妖怪首尔奇遇记(下)</h5>
+							</div>
+							</div>
+						</a>
+						<hr>
+						<a href="">
+						<div>
+							<img src="" alt="" class="hide">
+							<div class="font_box">
+							<h5>EP10预告 帅气弘大路演 快落的结尾</h5>
+							</div>
+						</div>
+						</a>
+					</li>
+				</ul>
+				
+			</div>
+			
+
+		</div>
+
+
+<!-- 官方合作伙伴 -->
+	<div class="offCpa">
+		<div class="daohang">
+			<b>官方合作专区</b>
+			<ul>
+				<li><a href="">S.M.Entertainment</a></li>
+				<li><a href="">avex</a></li>
+				<li><a href="">JYP ENTERTAINMENT</a></li>
+			</ul>
+			</div>
+			<hr>
+			<div class="offCpa_zuotu">
+				<a href=""><img src="./images/offCpa/1.jpg" alt="">
+				<h5>YOUNG</h5>
+				<p>YOUNG</p>
+
+
+				</a>
+				
+			</div>
+			<div class="offCpa_videos">
+				<ul>
+					<li><a href="http://v.yinyuetai.com/video/3302200"><img src="./images/offCpa/a.jpg" alt="">
+						<h5>We Go Up</h5>
+					
+						</a>
+					</li>
+					<li><a href=""><img src="./images/offCpa/b.jpg" alt="">
+						<h5>Our Page</h5>
+			
+				
+					</a></li>
+					<li><a href=""><img src="./images/offCpa/c.jpg" alt="">
+						<h5>Something New</h5>
+		
+					</a></li>
+					<li><a href=""><img src="./images/offCpa/d.jpg" alt="">
+						<h5>Good Evening</h5>
+					</a></li>
+					<li><a href=""><img src="./images/offCpa/e.jpg" alt="">
+						<h5>Road</h5>
+				
+					</a></li>
+					<li><a href=""><img src="./images/offCpa/f.jpg" alt="">
+						<h5>#Cookie Jar</h5>
+			
+					</a></li>
+					<li><a href=""><img src="./images/offCpa/g.jpg" alt="">
+						<h5>I Want You</h5>
+		
+					</a></li>
+					<li><a href=""><img src="./images/offCpa/h.jpg" alt="">
+						<h5>Night Reminiscin</h5>
+
+					</a></li>
+				</ul>
+			</div>
+		
+	</div>
+
+	<!-- 精品悦单 -->
+	<div class="cpMv">
+		<div class="cpMv_daohang">
+				<b>精品悦单</b>
+				<a href=""><span>查看更多》</span></a>
+		</div>
+		<hr>
+
+		<div class="cpMv_videos">
+			<div id="cpMv_box">
+			<ul>
+				<a href="">
+				<li><img src="./images/cpMv/cp1/1.jpg" alt="">
+					<h5>灵魂的颤音! 欧美经典摇滚乐</h5>
+					<p>欧美经典摇滚音乐精选。</p>
+				</li>
+				</a>
+				<a href="">
+				<li><img src="./images/cpMv/cp1/2.jpg" alt="">
+					<h5>用现代的音乐唱出古典的味道</h5>
+					<p>中国风,不一样的概念</p>
+				</li>
+				</a>
+				<a href="">
+				<li><img src="./images/cpMv/cp1/3.jpg" alt="">
+					<h5>2018男女对唱</h5>
+				</li>
+				</a>
+				<a href="">
+				<li><img src="./images/cpMv/cp1/4.jpg" alt="">
+					<h5>2018偶像运动会-中秋特辑</h5>
+					<p>最后私心程潇完美艺术体操</p>
+				</li>
+				</a>
+				<a href="">
+				<li><img src="./images/cpMv/cp1/5.png" alt="">
+					<h5>Michael Jackson</h5>
+				</li>
+				</a>
+				<a href="">
+				<li><img src="./images/cpMv/cp1/6.jpg" alt="">
+					<h5>一起去KTV狂欢吧</h5>
+					<p>唱k必点歌曲都在这里啦!
+					</p>
+				</li>
+				</a>
+			</ul>
+			</div>
+		</div>
+
+
+
+	</div>
+	<!-- 猜你喜欢 -->
+	<div class="guessLike">
+		<div class="guessLike_daohang">
+				<b>猜你喜欢</b>
+				<p>(登陆后猜的更准呦)</p>
+				<a href=""><span>换一换</span></a>
+
+			</div>
+				<hr>
+			<div class="guessLike_videos">
+			<div id="guessLike_box">
+			<ul>
+				<a href="">
+				<li><img src="./images/guesslike/1.jpg" alt="">
+					<h5>灵魂的颤音! 欧美经典摇滚乐</h5>
+					<p>欧美经典摇滚音乐精选。</p>
+				</li>
+				</a>
+				<a href="">
+				<li><img src="./images/guesslike/2.jpg" alt="">
+					<h5>用现代的音乐唱出古典的味道</h5>
+					<p>中国风,不一样的概念</p>
+				</li>
+				</a>
+				<a href="">
+				<li><img src="./images/guesslike/3.jpg" alt="">
+					<h5>2018男女对唱</h5>
+					<p>shagnhai</p>
+				</li>
+				</a>
+				<a href="">
+				<li><img src="./images/guesslike/4.jpg" alt="">
+					<h5>2018偶像运动会-中秋特辑</h5>
+					<p>最后私心程潇完美艺术体操</p>
+				</li>
+				</a>
+				<a href="">
+				<li><img src="./images/guesslike/5.jpg" alt="">
+					<h5>Michael Jackson</h5>
+					<p>shagnhia</p>
+				</li>
+				</a>
+				<a href="">
+				<li><img src="./images/guesslike/6.jpg" alt="">
+					<h5>一起去KTV狂欢吧</h5>
+					<p>唱k必点歌曲都在这里啦!
+					</p>
+				</li>
+				</a>
+			</ul>
+			</div>
+		</div>
+	</div>
+	
+
+
+	<!-- END -->
+	<div class="end">
+		<div class="end_one">
+		<p>
+			<a href="">关于我们</a><span>|</span>
+			<a href="">人才招聘</a><span>|</span>
+			<a href="">联系我们</a><span>|</span>
+			<a href="">友情链接</a><span>|</span>
+			<a href="">版权声明</a><span>|</span>
+			<a href="">客服中心</a>
+		</p>
+		</div>
+
+		<div class="end_two">
+			<p>
+				 <a href=""><img src="./images/end/two.png" alt=""></a>Copyright &copy;2009 - 2018 yinyuetai.com <a href="">营业执照</a> 广播电视节目制作经营 许可证编号(京)字第1891号 | <a href="">京网文[2017]10974-1277号 </a>| <a href="">网络视听许可证0110413号</a>
+				
+			</p>
+		</div>
+
+		<div class="end_three">
+			<p>
+				<a href=""><img src="./images/end/three1.png" id="gongan" alt=""></a><a href="">京公网安备11010502014900号</a> | 京ICP证060716号 |京ICP备11024134号-1 | 出版物经营许可证 <a href="">新出发京批字第直160022号 </a>| <a href="">新出发京零字第直1300062号 </a>| 增值电信业务经营许可证B2-20140501 <a href=""><img src="./images/end/three2.gif" id="xukezheng" alt=""></a>
+			</p>
+
+
+		</div>
+
+
+	</div>
+
+
+	<div class="returntop">
+		<a href="javascript:scrollTo(0,0)" title="返回顶部"><img src="./images/returntop.png" id="top" alt=""></a>
+	</div>
+
+
+
+
+
+	</div>
+	
+</body>
+</html>
